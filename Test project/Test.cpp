@@ -3,7 +3,8 @@ using namespace std;
 
 const long long MOD = 1e9 + 7;
 
-int main(){
+int main()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -11,7 +12,7 @@ int main(){
     cin >> n >> m;
 
     vector<int> a(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
+    for (int i = 0; i < n; i++) cin >> a[i]; 
 
     vector<long long> dp(m + 1, 0);
     dp[0] = 1;
